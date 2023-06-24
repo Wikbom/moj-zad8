@@ -1,0 +1,14 @@
+description: zad8, trigram with left/right context embeddings
+tags:
+  - neural-network
+  - left-to-right
+params:
+  epochs: 3
+  learning-rate: 0.0003
+  vocab-size: 20000
+  batch_s: 3200
+  top_k_words: 20
+param-files:
+  - config/*.yaml
+links:
+  - repo: "https://git.wmi.amu.edu.pl/s470618/challenging-america-word-gap-prediction"
